@@ -1,0 +1,41 @@
+
+
+COUNTDOWN TIMER PLAN
+
+1. TOOL NAME: Countdown Timer
+
+2. DESCRIPTION:
+The countdown timer allows the user to enter a number of seconds
+and counts down to zero, displaying the remaining time.
+When the countdown finishes, it displays a message saying
+"Time is up!"
+
+3. EXACT MENU TEXT:
+
+COUNTDOWN TIMER 
+1. Start Countdown
+2. Exit
+
+Enter your choice (1-2):
+
+4. CONCEPTS USED:
+
+- Variables: Store the countdown time.
+- Input: Ask the user to enter the number of seconds.
+- While loop: Repeat the countdown until it reaches zero.
+- Conditional statements: Check the user's menu choice.
+- If statement: Check when the timer reaches zero.
+- Time module: Pause for one second between numbers.
+- F-strings: Display the remaining seconds.
+- Functions: Organize the countdown code.
+
+5. PROGRAM FLOW:
+
+- Display the countdown timer menu.
+- Ask the user to choose an option.
+- If the user selects 1, ask for the countdown time.
+- Count down one second at a time.
+- Display "Time is up!" when the timer reaches zero.
+- Return to the main menu.
+- If the user selects 2, exit the program.
+
